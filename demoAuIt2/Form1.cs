@@ -25,6 +25,7 @@ namespace demoAuIt2
         private void button1_Click(object sender, EventArgs e)
         {
             //clike();
+            button1.Text = "stop";
             bool loop = true;
             while (loop)
             {
